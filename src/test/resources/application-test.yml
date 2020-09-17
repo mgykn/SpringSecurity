@@ -1,0 +1,14 @@
+spring.cloud.config.enabled: false
+spring:
+  application:
+    name: assesment-service
+  profiles:
+    active: test
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27018
+      database: lt-test
+      host: 127.0.0.1 #Embedded mongo icin gerekli
+      port: 27018 #Embedded mongo icin gerekli
+
+  
